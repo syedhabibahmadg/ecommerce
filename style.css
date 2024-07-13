@@ -764,4 +764,15 @@ footer .install .row img:hover{
         font-size: 9px;
         margin: 0 0 8px 0;
     }
+    /* single product */
+    #prodetails {
+        display: flex;
+        flex-direction: column;
+    }
+    #prodetails .single-pro-img {
+        width: 100%;
+    }
+    #prodetails .single-pro-details {
+        width: 100%;
+    }
 }
