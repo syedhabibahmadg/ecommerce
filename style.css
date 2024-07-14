@@ -515,86 +515,7 @@ footer .install .row img:hover{
 }
 
 
-/* Blog Page */
-#page-header.blog-header{
-        background-image: url("blog-banner.jpg");
-        justify-content: center;
-        align-items: center;
-        color: white;
-        height: 50vh;
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        display: flex;
-        text-align: center;
-        flex-direction: column;
-        padding: 14px;
-    
-}
 
-#blog{
-    padding:150px 150px 0 150px;
-}
-
-#blog .blog-box{
-    display:flex;
-    align-items:center;
-    width:100%;
-    position:relative;
-    padding-bottom: 90px;
-}
-#blog .blog-img{
-    width:50%;
-    margin-right:40px;
-    
-}
-#blog img{
-    width:100%;
-    height:300px;
-    object-fit:cover;    
-}
-
-#blog .blog-details{
-    width:50%;
-}
-#blog .blog-details h4{
-    line-height:30px;
-}
-
-#blog .blog-details a{
-    text-decoration: none;
-    color:black;
-    font-size:14px;
-    font-weight: 700;
-    position:relative;
-    transition:0.4s;
-}
-
-#blog .blog-details a::after{
-    content:"";
-    width:50px;
-    height:1px;
-    background:black;
-    position:absolute;
-    top:6.5px;
-    right:-60px;
-}
-#blog .blog-details a:hover{
-    color:#088178;
-}
-#blog .blog-details a:hover::after{
-    background-color:#088178;
-}
-
-#blog .blog-box h1{
-    position: absolute;
-    top:-50px;
-    left:0;
-    font-size:70px;
-    font-weight: 700;
-    color: #c9cbce;
-    z-index: -9;
-}
 /* single products */
 
 #prodetails{
@@ -651,6 +572,132 @@ footer .install .row img:hover{
 #prodetails .single-pro-details span{
     line-height: 25px;
 }
+
+
+/* Blog Page */
+#page-header.blog-header{
+    background-image: url("blog-banner.jpg");
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    padding: 14px;
+
+}
+
+#blog{
+padding:150px 150px 0 150px;
+}
+
+#blog .blog-box{
+display:flex;
+align-items:center;
+width:100%;
+position:relative;
+padding-bottom: 90px;
+}
+#blog .blog-img{
+width:50%;
+margin-right:40px;
+
+}
+#blog img{
+width:100%;
+height:300px;
+object-fit:cover;    
+}
+
+#blog .blog-details{
+width:50%;
+}
+#blog .blog-details h4{
+line-height:30px;
+}
+
+#blog .blog-details a{
+text-decoration: none;
+color:black;
+font-size:14px;
+font-weight: 700;
+position:relative;
+transition:0.4s;
+}
+
+#blog .blog-details a::after{
+content:"";
+width:50px;
+height:1px;
+background:black;
+position:absolute;
+top:6.5px;
+right:-60px;
+}
+#blog .blog-details a:hover{
+color:#088178;
+}
+#blog .blog-details a:hover::after{
+background-color:#088178;
+}
+
+#blog .blog-box h1{
+position: absolute;
+top:-50px;
+left:0;
+font-size:70px;
+font-weight: 700;
+color: #c9cbce;
+z-index: -9;
+}
+
+
+/* About */
+
+#page-header.about-banner{
+    background-image: url("img/about/banner.png");
+    justify-content: center;
+    align-items: center;
+    color: black;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    padding: 14px;
+
+}
+#about-head{
+    display:flex;
+    gap:20px;
+}
+#about-head img{
+    width:50%;
+    height:auto;
+}
+
+#about-app{
+    text-align:center;
+}
+#about-app .video{
+    width:70%;
+    height:70%;
+    margin:30px auto 0 auto;
+
+}
+#about-app .video video{
+    width:100%;
+    height:100%;
+    border-radius:20px;
+}
+
+
 /* start media query */
 @media (max-width:799px){
     #nav-bar {
@@ -901,4 +948,32 @@ footer .install .row img:hover{
         color: #465b52;
         margin: 8px 0 20px 0;
     }
+
+    /* about */
+
+    #page-header.about-banner {
+        background-image: url("img/about/banner.png");
+        justify-content: center;
+        align-items: center;
+        color: black;
+        height: 15vh;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        padding: 14px;
+    }
+
+    #about-head img {
+        width: 100%;
+        height: auto;
+    }
+    #about-head {
+        display: flex;
+        flex-direction:column;
+        gap: 20px;
+    }
+
 }
