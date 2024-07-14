@@ -786,7 +786,7 @@ z-index: -9;
         width:28%;
     }
     #newsletter .form {
-        width: 70%;
+        width: 96%;
     }
     footer .new {
         flex-wrap:wrap;
@@ -978,5 +978,8 @@ z-index: -9;
     #about-app .video{
         width: 100%;
         
+    }
+    #newsletter .form {
+        width: 96%;
     }
 }
