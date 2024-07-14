@@ -975,5 +975,8 @@ z-index: -9;
         flex-direction:column;
         gap: 20px;
     }
-
+    #about-app .video{
+        width: 100%;
+        
+    }
 }
