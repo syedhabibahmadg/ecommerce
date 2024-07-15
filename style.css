@@ -1257,4 +1257,18 @@ z-index: -9;
         border: 1px solid #e2e9e1;
         padding: 30px;
     }
+    #page-header.cart-banner {
+        background-image: url("img/cart/b2.png");
+        justify-content: center;
+        align-items: center;
+        color: black;
+        height: 15vh;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        padding: 14px;
+    }
 }
