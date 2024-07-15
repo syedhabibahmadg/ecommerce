@@ -698,6 +698,104 @@ z-index: -9;
 }
 
 
+
+/* contact us */
+#page-header.contact-banner{
+    background-image: url("img/contact/b2.png");
+    justify-content: center;
+    align-items: center;
+    color: black;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    padding: 14px;
+
+}
+#page-header.contact-banner>h2 {
+    color: #673AB7;
+}
+
+
+#contact-details{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+}
+#contact-details .details{
+    width:40%;
+}
+#contact-details .details span,
+#form-details form span{
+    font-size:15px;
+    color: #83837d;
+}
+#contact-details .details h2,
+#form-details form h2{
+    font-size:26px;
+    line-height:30px;
+    padding:20px 0;
+}
+
+#contact-details .details h3{
+    font-size:16px;
+    padding-bottom:15px;
+}
+
+#contact-details .details li{
+    list-style: none;
+    display: flex;
+    padding: 10px 0;
+}
+#contact-details .details li i{
+    font-size: 14px;
+    padding-right: 22px;
+}
+#contact-details .details li p{
+    margin: 0;
+    font-size: 14px;
+}
+
+#contact-details .map{
+    width:55%;
+    height:400px;
+}
+#contact-details .map iframe{
+    width:100%;
+    height:80%;
+}
+
+#form-details{
+    margin: 30px;
+    border-top: 2px solid rgb(211, 209, 209);
+}
+
+#form-details form{
+    width:60%;
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+    margin:30px;
+}
+
+#form-details form input,
+#form-details form textarea{
+    width:100%;
+    padding:12px 15px;
+    outline:none;
+    margin-bottom:20px;
+    border:1px solid #dddcdc;
+}
+
+#form-details form button{
+    background-color:#088178;
+    color:white;
+}
+
+
 /* start media query */
 @media (max-width:799px){
     #nav-bar {
@@ -981,5 +1079,40 @@ z-index: -9;
     }
     #newsletter .form {
         width: 96%;
+    }
+
+    /* contact us */
+    #page-header.contact-banner {
+        background-image: url("img/contact/b2.png");
+        justify-content: center;
+        align-items: center;
+        color: black;
+        height: 16vh;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        padding: 14px;
+    }
+    
+    #contact-details {
+        display: flex;
+        flex-direction:column;
+    }
+    #contact-details .details {
+        width: 100%;
+        margin-bottom:20px;
+    }
+    #contact-details .map{
+        width:100%;
+    }
+    #form-details form {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 23px;
     }
 }
